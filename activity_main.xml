@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/supermarket"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BuyRite Supermarket"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: BuyRite@gmail.com"
+        android:layout_below="@id/name"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Airport Road Ikeja Lagos Nigeria"
+        android:layout_below="@id/email"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+234-814-6448-507, +234-810-2525-271"
+        android:layout_below="@id/address"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...Your satisfaction is our aim!"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
